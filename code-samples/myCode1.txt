@@ -1,0 +1,12 @@
+fn add(x: Int , y: Int): Int {
+  return x + y;
+}
+
+fn abs(x: Int): Int {
+  if x > 0 {
+    return x;
+  } else {
+    return 0 - x;
+  }
+}
+println(add(41,abs(0-1)));
